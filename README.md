@@ -7,7 +7,11 @@ This first image is the orignal image, w. a dimensions of 124x118
 
 ![aa](https://user-images.githubusercontent.com/69788614/176034546-8ee2ae94-3ed8-4952-bdd7-bb237738ad2f.png)
 
-The next one is an image obtained with the EDSR model w. a scale x4 (from the image shown above) --> dimensions are now 496x472
+The next one is an image obtained with the EDSR model w. a scale x4 (from the image shown above), w. dimensions are now 496x472
 
 ![scaled_4x](https://user-images.githubusercontent.com/69788614/176034779-437c3d54-9ae8-43b5-bc55-fbf2963e4eb0.png)
+
+The next would be the upsampled image we would have obtained by only resizing the orignal one...is clearly visible that the result is way worse than compared to the previous image, obtain with the EDSR model (provided by pytorch) for superResolution. w. dimensions 496x472
+
+![resized_4x](https://user-images.githubusercontent.com/69788614/176035357-61e47288-20ae-4ee6-b84d-32c578ad99bb.png)
 
